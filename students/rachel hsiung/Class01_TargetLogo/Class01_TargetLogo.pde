@@ -28,5 +28,5 @@ void mouseTargetLogo(){
   fill(255,0,0);
   ellipse(mouseX,mouseY,100,100);
   
-  ellipse(width,height/2,50,50);
+  
 }
