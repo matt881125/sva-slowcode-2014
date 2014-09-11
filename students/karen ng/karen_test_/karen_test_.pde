@@ -1,5 +1,7 @@
 //Karen Ng
-//
+//Slow Code Assignment 1
+//Sept 11, 2014
+// Mouse press for random circles 
 
 int x = 10;
 int dx = 2;
@@ -44,23 +46,19 @@ void draw () {
     frameRate (14);
     background (255, 255, 255);
     
-    fill (249, 212, 222, 60);
+    fill (249, 212, 222, 20);
     ellipse (random(width), y+20, 20, 20);
     
-    fill (249, 212, 222, 100);
+    fill (249, 212, 222, 80);
     ellipse (random(width), y+20, 20, 20);
     y = y+dy; //second ellipse goes down the screen
    
-    fill (249, 212, 222, 150);
+    fill (249, 212, 222, 130);
     ellipse (random(width), y+60, 40, 40);
     y = y+dy; //second ellipse goes down the screen
     
-    fill (253, 144, 177, 150);
-    ellipse (random(width), y+80, 40, 40);
-    y = y+dy; //second ellipse goes down the screen
-    
-    fill (255, 255, 255, 150);
-    ellipse (random(width), y+100, 50, 80);
+    fill (255, 255, 255, 110);
+    ellipse (random(width), y+180, 50, 80);
     y = y+dy; //second ellipse goes down the screen
     
     if(y+80 > height) { //so it doesn't bounce off R-side of screen
